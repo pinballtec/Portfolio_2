@@ -1,0 +1,74 @@
+html, body{
+    background-color: antiquewhite;
+    margin: 0;
+    text-align: center;
+}
+
+/* .main{
+    color: white;
+ } */
+
+h1{
+    margin-top: 0 auto 0 auto;
+}
+
+.One{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin-left: 260px;
+    margin-right: auto;
+}
+
+.two{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin-left: 460px;
+    margin-right: auto;
+}
+
+.bottom_image{
+    margin: auto;
+}
+
+.top_image{
+    position: absolute;
+    right: 300px;
+    top:50px;
+}
+
+.bottom_cloud{
+    left: 300px;
+    position: absolute;
+    
+}
+.footer{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.skills{
+	display: flex;
+	justify-content: space-evenly;
+    margin-right: 235px;
+}
+
+.python{
+    margin-bottom: 15%;
+    margin-top: 0;
+}
+
+.js{
+    margin-bottom: 22%;
+    margin-top: 0;
+}
+
+#photo{
+    display: block;
+	border: 1px solid var(--borderCoror);
+	margin: 0 auto;
+	height: 20%;
+	width: 20%;
+	object-fit: cover;
+    margin-top: 2%;
+}
